@@ -85,5 +85,9 @@ module = importlib.import_module(module_name)
 module.run()
 
 
+if __name__ == "__main__":
+    run()
+
+
 
 
